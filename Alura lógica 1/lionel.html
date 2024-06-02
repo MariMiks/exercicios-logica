@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+<script>
+
+	function pulaLinha() {
+		document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+	
+	function geraCodigo (letra, numero1, numero2){
+		return letra + numero1 + numero2;
+	}
+	
+	
+	//parâmetros desejados "A", 20, 30 -> GH1022
+	
+	mostra ("O código é " + geraCodigo("GH",10,22));
+	
+</script>

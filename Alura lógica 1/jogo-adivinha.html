@@ -1,0 +1,54 @@
+<meta charset="UTF-8">
+
+<input />
+<button>Insira um número que você pensou</button>
+
+<script>
+
+	function pulaLinha() {
+		document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+	
+	function sorteia() {
+		
+		return Math.round(Math.random() * 10);
+	}
+	
+	
+	var numeroPensado = 2;
+	var tentativas = 0;
+	var input = document.querySelector("input");
+	
+
+	
+	while (tentativas <= 3) {
+		var chute = input.value;
+	
+		if (chute == numeroPensado) {
+			mostra("Parabéns você acertou! O número pensado era " + numeroPensado);
+			break; //quebra o loop
+		} else {
+			mostra("Que pena...Você errou!");
+			}
+			
+		if (chute > numeroPensado) {
+			mostra("O número que pensei era menor do que " + chute);
+		} 
+				
+		if (chute < numeroPensado)	{
+			mostra("O número que pensei era maior do que " + chute);
+		}
+				
+		tentativas ++;
+	}
+	
+	var button = document.querySelector("button");
+	button.onclick =
+	
+	mostra ("Fim")
+</script>

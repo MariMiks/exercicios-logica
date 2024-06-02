@@ -1,0 +1,20 @@
+<script>
+
+    var aprendi = true;
+
+    if(aprendi) {
+
+        alert('O instrutor fica muito contente');
+    } else {
+
+        alert('O instrutor não vai desistir até você virar um cangaceiro!');
+    }
+</script>
+
+- Não precisa mais utilizar o operador ==
+- if() espera receber true ou false para saber se o código será executado ou não
+- se a variável já guarda a informação direta de true ou false, é redundante utilizar o operador ==
+
+O importante é você ir sentindo o que prefere e o que não prefere em programação. Até porque, não desejo que meus alunos sejam "carbonos" de mim.
+
+Programar é uma arte e como toda arte começamos a enxergar beleza onde não havia.

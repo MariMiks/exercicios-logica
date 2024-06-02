@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<head>
+	<title>Qual a nossa diferença de idade?</title>
+</head>
+
+<body>
+	<h1>Quantos anos nós temos de diferença?</h1>
+
+	<script>
+		function pulaLinha(){
+			document.write("<br>");
+		}
+	
+		function mostra(frase) {
+			document.write("Nossa diferença de idade é: " + frase);
+			pulaLinha();
+		}
+			
+			
+		var ano = 2021;
+		var minhaIdade = ano - 2003;
+		var idadeMae = ano - 1966;
+		
+		mostra(idadeMae - minhaIdade);
+	</script>
+</body>

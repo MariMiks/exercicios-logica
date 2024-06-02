@@ -1,0 +1,1 @@
+Uma variável pode ter um escopo de função, ou seja, só dentro da função ou ter um escopo chamado de escopo global. Quando declarada fora de uma função, a variável é acessível por qualquer outra função do nosso programa.

@@ -1,0 +1,16 @@
+FUNÇÃO ANÔNIMA = aquela que não possui um nome e nosso códifo dá um erro porque se elas não possuem nome, não da para chamá-las  aos eventos
+
+- é possivel atribuir a função anônima diretamente a uma variável ou propriedade
+
+Exemplo:
+/ atribuindo diretamente a função anônima
+    tela.onmousedown = function() {
+
+        desenha = true;
+    }
+
+    // atribuindo diretamente a função anônima
+     tela.onmouseup = function() {
+
+        desenha = false;
+    }

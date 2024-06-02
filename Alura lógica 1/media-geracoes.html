@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<head>
+	<title>Calcula a média das gerações</title>
+</head>
+
+<body>
+	<h1>Quantas gerações de brasileiros se passaram desde 1500?</h1>
+	<script>
+		function pulaLinha(){
+			document.write("<br>");
+		}
+		
+		function mostra (frase){
+			document.write("Se passaram " + frase + " gerações de brasileiros");
+			pulaLinha();
+		}
+	
+		var anoAtual = 2021;
+		var anosPassados = anoAtual - 1500;
+		var idadeMediaFilhos = 28;
+		
+		mostra((anosPassados/2)*idadeMediaFilhos);
+		
+	</script>
+</body>
